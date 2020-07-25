@@ -1,0 +1,222 @@
+
+
+/* Banner top */
+.page-title {
+    position: relative;
+    padding: 80px 0;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  .page-title:before {
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(116, 108, 113, 0.6);
+  }
+  
+  .page-title .title-text h1 {
+    position: relative;
+    font-size: 40px;
+    color: #ffffff;
+    line-height: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+  
+  .page-title .title-text .title-menu {
+    padding-left: 0;
+  }
+  
+  .page-title .title-text .title-menu li {
+    position: relative;
+    color: #040f27;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 30px;
+    text-transform: capitalize;
+  }
+  
+  .page-title .title-text .title-menu li a {
+    margin-right: 8px;
+    color: #ffffff;
+    font-weight: 500;
+    transition: all 500ms ease;
+  }
+  
+  .page-title .title-text .title-menu li a:hover {
+    color: #040f27;
+    transition: all 500ms ease;
+    font-weight: bold;
+  }
+
+/***-- Servicios y productos --***/
+
+
+.product-grid6,.product-grid6 .product-image6{
+    overflow:hidden
+}
+.product-grid6{
+    font-family:'Open Sans',sans-serif;
+    text-align:center;
+    position:relative;
+    transition:all .5s ease 0s
+}
+.product-grid6:hover{
+    box-shadow:0 0 10px rgba(0,0,0,.3)
+}
+.product-grid6 .product-image6 a{
+    display:block
+}
+.product-grid6 .product-image6 img{
+    width:100%;
+    height:auto;
+    transition:all .5s ease 0s
+}
+.product-grid6:hover .product-image6 img{
+    transform:scale(1.1)
+}
+.product-grid6 .product-content{
+    padding:12px 12px 15px;
+    transition:all .5s ease 0s
+}
+.product-grid6:hover .product-content{
+    opacity:0
+}
+.product-grid6 .title{
+    font-size:20px;
+    font-weight:600;
+    text-transform:capitalize;
+    margin:0 0 10px;
+    transition:all .3s ease 0s
+}
+.product-grid6 .title a{
+    color:#000
+}
+
+.product-grid6 .price{
+    font-size:18px;
+    font-weight:600;
+    color:crimson
+}
+.product-grid6 .price span{
+    color:#999;
+    font-size:15px;
+    font-weight:400;
+    text-decoration:line-through;
+    margin-left:7px;
+    display:inline-block
+}
+.product-grid6 .social{
+    background-color:#fff;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style:none;
+    opacity:0;
+    transform:translateX(-50%);
+    position:absolute;
+    bottom:-50%;
+    left:50%;
+    z-index:1;
+    transition:all .5s ease 0s;
+}
+
+.product-grid6:hover .social{
+    opacity:1;
+    bottom:20px
+}
+.product-grid6 .social li{
+    display:inline-block;
+    margin-right: 5px;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+.product-grid6 .social li a{
+    color:#909090;
+    font-size:16px;
+    line-height:45px;
+    text-align:center;
+    height:25px;
+    width:25px;
+    border:1px solid #909090;
+    display:block;
+    position:relative;
+    transition:all .3s ease-in-out
+}
+
+
+.product-grid6 .social li a:after{
+    content:'';
+    height:15px;
+    width:15px;
+    border-radius:0;
+    transform:translateX(-50%) rotate(45deg);
+    top:-20px;
+    z-index:-1
+}
+.product-grid6 .social li a:hover:after,.product-grid6 .social li a:hover:before{
+    opacity:1
+}
+
+
+@media only screen and (max-width:990px){
+    .product-grid6{
+        margin-bottom:30px
+    }
+}
+
+/**** filtro imagenes ***/
+
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+
+
+/*** Botones de color ***/
+
+.c-red {
+    background: red;
+}
+
+.c-gray {
+    background: gray;
+}
+
+.c-blue {
+    background: blue;
+}
+
+.c-brown {
+    background: brown;
+}
+
+.c-black {
+    background: black;
+}

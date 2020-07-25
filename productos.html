@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>SwiftCopy</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/up.css" />
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <!--CSS UNICOS-->
+    <link rel="stylesheet" href="css/productos.css" />
+    <link rel="stylesheet" href="css/utilidades.css" />
+    <!--Otros-->
+    <link rel="stylesheet" href="css/pruebasEstilos.css" />
+    <!--Slick Carousel Slider-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--JQuery.Arriba-->
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!--Header Upper-->
+    <div class="container clearfix text-center">
+      <div class="logo">
+        <figure>
+          <a href="index.html">
+            <img src="img/logo.jpg" alt="" width="300" />
+          </a>
+        </figure>
+      </div>
+    </div>
+    <!--Header Upper-->
+
+    <!--Navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light sticky-top position-sticky colorauto"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active" style="margin-right: 10px;">
+            <a class="nav-link fontbranco" href="index.html"
+              >Home <span class="sr-only">(página atual)</span></a
+            >
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle fontbranco"
+              href="productos.html"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Servicios
+            </a>
+            <div
+              class="dropdown-menu colorauto"
+              aria-labelledby="navbarDropdown"
+            >
+              <a class="dropdown-item fontbranco" href="productos.html"
+                >Diseño Gráfico</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item fontbranco" href="productos.html"
+                >Impresiones</a
+              >
+              <a class="dropdown-item fontbranco" href="productos.html"
+                >Papeleria</a
+              >
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item fontbranco" href="productos.html"
+                >Paginas web</a>
+            </div>
+          </li>
+
+          <li class="nav-item" style="margin-right: 10px;">
+            <a class="nav-link fontbranco" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--/Navbar-->
+
+    <!--Titulo pagina-->
+    <section class="page-title text-center mb-5" style="background-image: url(img/tituproductos.jpg);">
+      <div class="container">
+        <div class="title-text">
+          <h1>Servicios y Productos</h1>
+          <ul class="title-menu clearfix">
+            <li>
+              <a href="index.html">Inicio &nbsp;/</a>
+            </li>
+            <li>Servicios</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--/Titulo pagina-->
+
+    <!--productos-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center my-2">
+          <h4>Estamos atentos a cualquier consulta.</h4>
+          <p class="border-bottom border-dark p-2">
+            No dudes en escribirnos!
+          </p>
+        </div>
+      </div>
+
+      <div class="portfolio-menu mt-2 mb-4">
+        <ul>
+          <li class="btn btn-outline-dark active" data-filter="*">Todo</li>
+          <li class="btn btn-outline-dark" data-filter=".pap">Papeleria</li>
+          <li class="btn btn-outline-dark" data-filter=".dgr">
+            Diseño Gráfico
+          </li>
+          <li class="btn btn-outline-dark text" data-filter=".imp">
+            Impresiones
+          </li>
+        </ul>
+      </div>
+      <div class="portfolio-item row">
+        <div class="item dgr col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/diseño.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/diseño.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Logos</a></h3>
+              <div class="price">$Consultar</div>
+            </div>
+            <div class="social mt-5">
+              <p>Texto opcional</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item pap col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/papeleria.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/papeleria.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Marcador Permanente</a></h3>
+              <div class="price">$900</div>
+            </div>
+            <div class="social mt-5">
+              <p>Colores disponibles</p>
+              <ul class="mt-10">
+                <li><a class="c-black" href="#" title="Black"></a></li>
+                <li><a class="c-blue" href="#" title="Blue"></a></li>
+                <li><a class="c-brown" href="#" title="Brown"></a></li>
+                <li><a class="c-gray" href="#" title="Gray"></a></li>
+                <li><a class="c-red" href="#" title="Red"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item dgr col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/diseño.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/diseño.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Logos</a></h3>
+              <div class="price">$Consultar</div>
+            </div>
+            <div class="social mt-5">
+              <p>Texto opcional</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item imp col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/impresiones.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/impresiones.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Impresion x</a></h3>
+              <div class="price">$200</div>
+            </div>
+            <div class="social mt-5">
+              <p>Consultar precio por tamaño</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item pap col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/papeleria.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/papeleria.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Marcador Permanente</a></h3>
+              <div class="price">$900</div>
+            </div>
+            <div class="social mt-5">
+              <p>Colores disponibles</p>
+              <ul class="mt-10">
+                <li><a class="c-black" href="#" title="Black"></a></li>
+                <li><a class="c-blue" href="#" title="Blue"></a></li>
+                <li><a class="c-brown" href="#" title="Brown"></a></li>
+                <li><a class="c-gray" href="#" title="Gray"></a></li>
+                <li><a class="c-red" href="#" title="Red"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item pap col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/papeleria.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/papeleria.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Marcador Permanente</a></h3>
+              <div class="price">$900</div>
+            </div>
+            <div class="social mt-5">
+              <p>Colores disponibles</p>
+              <ul class="mt-10">
+                <li><a class="c-black" href="#" title="Black"></a></li>
+                <li><a class="c-blue" href="#" title="Blue"></a></li>
+                <li><a class="c-brown" href="#" title="Brown"></a></li>
+                <li><a class="c-gray" href="#" title="Gray"></a></li>
+                <li><a class="c-red" href="#" title="Red"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item imp col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/impresiones.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/impresiones.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Impresion x</a></h3>
+              <div class="price">$200</div>
+            </div>
+            <div class="social mt-5">
+              <p>Consultar precio por tamaño</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item dgr col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/diseño.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/diseño.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Logos</a></h3>
+              <div class="price">$Consultar</div>
+            </div>
+            <div class="social mt-5">
+              <p>Texto opcional</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item dgr col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/diseño.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/diseño.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Logos</a></h3>
+              <div class="price">$Consultar</div>
+            </div>
+            <div class="social mt-5">
+              <p>Texto opcional</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="item pap col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/papeleria.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/papeleria.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Marcador Permanente</a></h3>
+              <div class="price">$900</div>
+            </div>
+            <div class="social mt-5">
+              <p>Colores disponibles</p>
+              <ul class="mt-10">
+                <li><a class="c-black" href="#" title="Black"></a></li>
+                <li><a class="c-blue" href="#" title="Blue"></a></li>
+                <li><a class="c-brown" href="#" title="Brown"></a></li>
+                <li><a class="c-gray" href="#" title="Gray"></a></li>
+                <li><a class="c-red" href="#" title="Red"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item imp col-md-3 col-sm-6">
+          <div class="product-grid6">
+            <div class="product-image6">
+              <a
+                href="img/productos/impresiones.jpg"
+                class="fancylight popup-btn"
+                data-fancybox-group="light"
+              >
+                <img class="img-fluid" src="img/productos/impresiones.jpg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#">Copias</a></h3>
+              <div class="price">$200</div>
+            </div>
+            <div class="social mt-5">
+              <p>Tipo de copia</p>
+              <ul class="mt-10">
+                <li style="text-align: center;">
+                  B/N <a class="c-black" href="#" title="Black"></a>
+                </li>
+                <li style="text-align: center;">
+                  Color <a class="c-blue" href="#" title="Blue"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product -->
+
+    <!--/productos-->
+
+    <!--Boton de ir arriba-->
+    <div id="ir-arriba">
+      <i class="fa fa-chevron-up" aria-hidden="true"></i>
+    </div>
+
+    <!--Footer-->
+    <footer class="kilimanjaro_area">
+      <!-- Top Footer Area Start -->
+      <div class="foo_top_header_one section_padding_100_70">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="kilimanjaro_part">
+                <div class="footer-logo">
+                  <figure>
+                    <a href="index.html">
+                      <img src="img/logo.jpg" alt="" />
+                    </a>
+                  </figure>
+                </div>
+                <p style="font-size: 20px; color: #15151e;">
+                  <b>Tienes preguntas? </b>
+                </p>
+                <ul class="location-link">
+                  <li class="item">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <a
+                      href="mailto:swiftcopy102@gmail.com"
+                      style="text-decoration: none; color: #15151e;"
+                    >
+                      swiftcopy102@gmail.com
+                    </a>
+                  </li>
+                  <li class="item">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <a
+                      href="tel://3153018747"
+                      style="text-decoration: none; color: #15151e;"
+                      >(57) 3153018747
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="kilimanjaro_part m-top-15">
+                <h5>Social Links</h5>
+                <ul class="kilimanjaro_social_links">
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.facebook.com/SwiftCopy102-107866287604555"
+                      class="facebook"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.instagram.com/swiftcopy102/"
+                      class="instagram"
+                      ><i class="fa fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://api.whatsapp.com/send?phone=573153018747"
+                      class="whatsapp"
+                      ><i class="fa fa-whatsapp"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://www.youtube.com/channel/UC1ePvTthIoyn0OTl0zNdFPQ"
+                      class="youtube"
+                      ><i class="fa fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <div class="kilimanjaro_part m-top-15">
+                <h5>Mapa del Sitio</h5>
+                <ul class="kilimanjaro_links">
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-angle-right" aria-hidden="true"></i
+                      >Productos</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-angle-right" aria-hidden="true"></i
+                      >Servicios de Diseño</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-angle-right" aria-hidden="true"></i
+                      >Contacto</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <h3>Síguenos!</h3>
+              <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FSwiftCopy102-107866287604555%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340"
+                height="500"
+                style="border: none; overflow: hidden;"
+                scrolling="no"
+                frameborder="0"
+                allowTransparency="true"
+                allow="encrypted-media"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom Area Start -->
+      <div class="kilimanjaro_bottom_header_one section_padding_50 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p>
+                © 2020 All Rights Reserved. Designed and Developed with love by
+                <a href="#"><i class="fa fa-heart"></i> Caro Sanchez</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--/Footer-->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--otros-->
+    <script src="js/scriptProductos.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="js/brand.js"></script>
+    <script src="js/up.js"></script>
+
+    <!-- JavaScript Unicos -->
+    <script src="js/modal.js"></script>
+    <script src="js/filter.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  </body>
+</html>
